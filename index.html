@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro" />
+
+		<title>Millikan</title>
+	</head>
+	<style></style>
+	<body>
+		<div class="custom-shape-divider-top-1703543131">
+			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+				<path
+					d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+					opacity=".25"
+					class="shape-fill"
+				></path>
+				<path
+					d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+					opacity=".5"
+					class="shape-fill"
+				></path>
+				<path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+			</svg>
+		</div>
+
+		<div class="container">
+			<h1>Millikan-Experiment</h1>
+			<p>
+				Mit dem Millikan-Versuch gelang es dem Amerikaner Robert Millikan im Jahre 1910 die kleinstmögliche Ladung zu bestimmen, die sogenannte Elementarladung. Dazu musste er es schaffen die Ladung eines einzelnen Elektrons zu bestimmen. Da dies
+				nicht über Messgeräte zu erzielen ist, entwarf er einen geschickten Versuchsanbau zur experimentellen Bestimmung der Ladung.
+			</p>
+			<p>
+				Der prinzipielle Aufbau des Versuchs ist recht einfach. Man nimmt einen mit Luft gefüllten Zylinder, bestehend aus zwei Kondensatorplatten mit entgegengesetzter Spannung. Zwischen den beiden Kondensatorplatten entsteht ein homogenes Feld. Die
+				angeschlossene Spannungsquelle ist verstellbar und lässt sich umpolen. An dem Zylinder befindet sich ein Zerstäuber, der mit Öl gefüllt ist. Zudem wird ein Mikroskop mit einer Skala benötigt und eine Art Taschenlampe, die den Zylinder von
+				einer Seite beleuchtet.
+			</p>
+			<div class="img-container">
+				<img class="img1" src="./img/millikan-versuch-aufbau-skizze-0.png" alt="Versuchsaufbau" />
+				<div>
+					<p>Abb. 1: Versuchsaufbau - &nbsp;</p>
+					<a href="https://www.leifiphysik.de/sites/default/files/images/7d908b98034b1c60c18b057170f541d3/992millikan-versuch-aufbau-skizze-0.svg">(Zum Original)</a>
+				</div>
+			</div>
+
+			<p>In der Durchführung werden nun mit dem Zerstäuber Öltröpfchen in den Zylinder gesprüht. Durch die Reibungselektrizität beim Zerstäuben werden die Tröpfchen ionisiert. Im Zylinder wirken vier wesentliche Kräfte auf jedes Tröpfchen:</p>
+
+			Die Gewichtskraft
+			<div class="formula">
+				<div class="border"></div>
+				<code>F_G = m * g</code>
+			</div>
+			<div class="formula">
+				<div class="border"></div>
+				<code>mit m = ϱ_Öl * V_Öl</code>
+			</div>
+			<div class="formula">
+				<div class="border"></div>
+				<code>und V_Öl = 4/3 * π * r^3</code>
+			</div>
+			<div class="formula">
+				<div class="border"></div>
+				<code>ergibt: F_G = ϱ_Öl * 4/3 * π * r^3 * g</code>
+			</div>
+
+			Die elektrische Kraft
+			<div class="formula">
+				<div class="border"></div>
+				<code>F_el = E/q mit E = U / d (nur im homogenen Feld)</code>
+			</div>
+			<div class="formula">
+				<div class="border"></div>
+				<code>F_el = (q * U) / d</code>
+			</div>
+
+			Die Stokes-Reibung für Kugeln
+			<div class="formula">
+				<div class="border"></div>
+				<code>F_r = 6 * π * η * r * v</code>
+			</div>
+
+			Die Auftriebskraft
+			<div class="formula">
+				<div class="border"></div>
+				<code>FA = ϱ_Luft * V_Öl * g</code>
+			</div>
+
+			<p>Diese Kräfte bewirken eine Beschleunigung des Teilchens und dem zufolge eine Bewegung nach oben oder unten im Zylinder.</p>
+
+			<p>
+				Eine Methode, um jetzt die Ladung eines Öltröpfchens zu ermitteln, ist die Schwebemethode. Dabei wird ein Teilchen in den Schwebezustand gebracht durch das Verstellen der Spannung. Nach dem ersten Newtonschen Axiom, dem Trägheitsgesetz,
+				verharrt ein Körper im Zustand der Ruhe, solange die Summe der angreifenden Kräfte null ist. Das heißt, es liegt ein Kräftegleichgewicht vor. In diesem Fall lautet es:
+			</p>
+
+			<div class="formula">
+				<div class="border"></div>
+				<code>F_el + F_A = F_G</code>
+			</div>
+
+			<p>Die Reibung steht nicht im Kräftegleichnis, da sie von der Geschwindigkeit v abhängig ist, welche null ist. Daher ist auch die Reibung null.</p>
+
+			<p>Das aufgestellte Kräftegleichnis lässt sich anschließend in seine Bestandteile auflösen und nach der Ladung q umstellen.</p>
+
+			<div class="formula">
+				<div class="border"></div>
+				<code>(U / d) * q + ϱ_Luft * V_Öl * g = ϱ_Öl * V_Öl * g</code>
+			</div>
+			<div class="formula">
+				<div class="border"></div>
+				<code>(U / d) * q = V_Öl * g * (ϱ_Öl - ϱ_Luft) V_Öl * (d / U)</code>
+			</div>
+			<div class="formula">
+				<div class="border"></div>
+				<code>q = 4/3 * π * r^3 * g * (ϱ_Öl - ϱ_Luft) * (d / U)</code>
+			</div>
+
+			<p>
+				Jetzt können wir die Ladung des schwebenden Tröpfchens berechnen. Doch damit sind wir noch nicht am Ende. Wenn wir diese Berechnung für mehrere Tröpfchen durchführen, fällt uns auf, dass wir unterschiedliche Werte erhalten. In einem Diagramm
+				würden sie etwa so aussehen:
+			</p>
+
+			<div class="img-container">
+				<img class="img2" src="./img/992millikan-versuch-auswertung-diagramm-0.png" alt="Messergebnisse eines Millikan-Experiments" />
+				<div>
+					<p>Abb. 2: Messergebnisse eines Millikan-Experiments - &nbsp;</p>
+					<a href="https://www.leifiphysik.de/sites/default/files/images/7b8c0aab49f4373df0d4356de7513eca/992millikan-versuch-auswertung-diagramm-0.svg">(Zum Original)</a>
+				</div>
+			</div>
+
+			<p>
+				In dem Diagramm ist zu erkennen, dass die berechneten Ladungen alle auf horizontalen Linien liegen, abgesehen von einigen Messabweichungen. Doch warum? Haben wir etwas falsch gemacht? Der Grund dafür ist, dass die Öltröpfchen verschiedene
+				Ladungen haben. Einige Tröpfchen sind größer als andere und sind dementsprechend unterschiedlich geladen. Was aber auffällt ist, dass die kleinste gemessene Ladung etwa 1,9 * 10^-19 As beträgt und die restlichen Ladungen alle Vielfache dieser
+				kleinsten Ladung sind.
+			</p>
+
+			<p>
+				Mit dieser Methode konnte Robert Millikan bereits Anfang des 20. Jahrhundert die Elementarladung mit hoher Genauigkeit bestimmen. Seine wichtigsten Erkenntnisse sind die Elementarladung mit einem Wert von rund 1,602 * 10-19 und, dass die
+				elektrische Ladung eines Körpers eine gequantelte Größe ist, das heißt, dass sie aus ganzzahligen Vielfachen der Elementarladung besteht.
+			</p>
+		</div>
+
+		<script type="module" src="/variables.js"></script>
+		<script type="module" src="gui.js"></script>
+		<script type="module" src="/particle.js"></script>
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>
